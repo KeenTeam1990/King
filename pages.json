@@ -1,0 +1,83 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				 "navigationBarTitleText": "",
+				 "navigationBarBackgroundColor":"#18bc9c",
+				 "navigationBarTextStyle":"white"
+			}
+		},{
+			"path": "pages/aq/aq",
+			"style": {
+				"navigationBarTitleText": "安卓Q区"
+			}
+		}, { 
+			"path": "pages/aw/aw",
+			"style": {
+				"navigationBarTitleText": "安卓V区"
+			}
+		},{ 
+			"path": "pages/gq/gq",
+			"style": {
+				"navigationBarTitleText": "苹果Q区"
+			}
+		}, { 
+			"path": "pages/gw/gw",
+			"style": {
+				"navigationBarTitleText": "苹果V区"
+			}
+		}, { 
+			"path": "pages/headimg/headimg",
+			"style": {
+				"navigationBarTitleText": "头像"
+			}
+		}, { 
+			"path": "pages/imgd/imgd",
+			"style": {
+				"navigationBarTitleText": "头像详情"
+			}
+		},{ 
+			"path": "pages/me/me",
+			"style": {
+				"navigationBarTitleText": "更多"
+			}
+		}
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#089cff", 
+		"backgroundColor":"#FFFFFF",
+		"iconWidth":"25px",
+		// "spacing": "0px",  
+		"height": "60px", 
+		"borderStyle":"none",
+		"fontSize":"11px",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabbar/app.png",
+				"selectedIconPath": "static/tabbar/app_c.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/headimg/headimg",
+				"iconPath": "static/tabbar/head.png",
+				"selectedIconPath": "static/tabbar/head_c.png",
+				"text": "头像"
+			},
+			{
+				"pagePath": "pages/me/me",
+				"iconPath": "static/tabbar/me.png",
+				"selectedIconPath": "static/tabbar/me_c.png",
+				"text": "更多"
+			}
+		]
+	}
+}
